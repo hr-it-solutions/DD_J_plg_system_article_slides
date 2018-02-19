@@ -11,6 +11,7 @@
     <description>PLG_SYSTEM_DD_ARTICLE_SLIDES_XML_DESCRIPTION</description>
     <files>
         <filename plugin="dd_article_slides">dd_article_slides.php</filename>
+        <folder>fields</folder>
     </files>
     <scriptfile>script.php</scriptfile>
     <languages>
