@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.6.5" type="plugin" group="content" method="upgrade">
+    <name>PLG_SYSTEM_DD_ARTICLE_SLIDES</name>
+    <version>1.0.0.0</version>
+    <creationDate>11.12.2017</creationDate>
+    <author>HR IT-Solutions Florian Häusler</author>
+    <authorEmail>info@hr-it-solutions.com</authorEmail>
+    <authorUrl>https://www.hr-it-solutions.com</authorUrl>
+    <copyright>Copyright (C) 2017 - 2018 Didldu e.K. | HR IT-Solutions</copyright>
+    <license>GNU/GPLv2 only</license>
+    <description>PLG_SYSTEM_DD_ARTICLE_SLIDES_XML_DESCRIPTION</description>
+    <files>
+        <filename plugin="dd_article_slides">dd_article_slides.php</filename>
+    </files>
+    <scriptfile>script.php</scriptfile>
+    <languages>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_article_slides.sys.ini</language>
+        <language tag="en-GB">language/en-GB/en-GB.plg_system_dd_article_slides.ini</language>
+    </languages>
+    <updateservers>
+        <server type="collection" priority="1" name="HR IT-Solutions Updates">http://www.hr-it-solutions.com/jextensions/update.xml</server>
+    </updateservers>
+    <media destination="plg_system_dd_article_slides" folder="media">
+        <folder>js</folder>
+        <folder>css</folder>
+    </media>
+</extension>
