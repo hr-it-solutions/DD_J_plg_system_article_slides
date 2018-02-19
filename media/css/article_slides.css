@@ -1,0 +1,88 @@
+/**
+ * @package    DD_Article_Slides
+ *
+ * @author     HR IT-Solutions Florian Häusler <info@hr-it-solutions.com>
+ * @copyright   Copyright (C) 2018 - 2018 Didldu e.K. | HR IT-Solutions
+ * @license     http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only  
+**/
+
+#dd_article_slides {
+    width: 100%;
+}
+#dd_article_slides .article_slide {
+    display: none;
+    position: relative;
+    width: 100%;
+}
+#dd_article_slides .article_slide_inner {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+#dd_article_slides .article_slide img {
+    width: 100%;
+}
+#dd_article_slides #dd_article_slides_fields1 {
+    display: block;
+}
+#dd_article_slides .article_slides_controls {
+    text-align: center;
+}
+#dd_article_slides .article_slides_controls span[class^="icon-"]{
+    color: #f00;
+    font-size: 35px;
+    width: 35px;
+    position: relative;
+    top: 10px;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    cursor: pointer;
+}
+#dd_article_slides .article_slides_controls span[class^="icon-"]:hover {
+    color: #222;
+}
+#dd_article_slides .article_slide_info {
+    padding: 10px 45px 10px 10px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(15, 15, 15, 0.7);
+}
+
+#dd_article_slides .article_slide_info p {
+    margin-bottom: 6px;
+}
+
+#dd_article_slides .article_slide_info_toggle {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f00;
+    border: none;
+    border-radius: 14px;
+    width: 28px;
+    height: 28px;
+    font-size: 24px;
+    line-height: 10px;
+    padding: 0;
+    margin: 8px;
+    display: inline-block;
+    color: #fff;
+}
+
+#dd_article_slides .article_slide_info_toggle:hover {
+    color: #222;
+}
+#dd_article_slides .article_slide_info_toggle span[class^="icon-"] {
+    position: relative;
+    left: -2px;
+}
+#dd_article_slides .article_slide_info_toggle .icon-dd-arrow-up {
+    bottom: -2px;
+}
+#dd_article_slides .article_slide_info_toggle .icon-dd-arrow-down {
+    top: -2px;
+}

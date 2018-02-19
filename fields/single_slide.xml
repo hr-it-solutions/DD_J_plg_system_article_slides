@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<field name="title" type="text" />
+	<field name="image" type="media" directory="dd_article_slides" />
+	<field name="image_alt" type="text" />
+	<field name="image_desc" type="textarea" rows="2" cols="10" filter="raw" />
+	<field name="image_source" type="text" />
+</form>

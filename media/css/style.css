@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'dd-icons';
+  src:  url('/fonts/dd-icons.eot?3k362s');
+  src:  url('fonts/dd-icons.eot?3k362s#iefix') format('embedded-opentype'),
+    url('fonts/dd-icons.ttf?3k362s') format('truetype'),
+    url('fonts/dd-icons.woff?3k362s') format('woff'),
+    url('fonts/dd-icons.svg?3k362s#dd-icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'dd-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dd-arrow-up:before {
+  content: "\e00f";
+}
+.icon-dd-arrow-right:before {
+  content: "\e010";
+}
+.icon-dd-arrow-down:before {
+  content: "\e011";
+}
+.icon-dd-arrow-left:before {
+  content: "\e012";
+}

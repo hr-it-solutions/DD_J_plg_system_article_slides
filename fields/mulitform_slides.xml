@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+	<fields name="attribs">
+		<fieldset
+			name="dd_article_slides"
+			label="PLG_SYSTEM_DD_ARTICLE_SLIDES"
+			addfieldpath="/plugins/system/dd_article_slides/fields"
+		>
+			<field name="dd_article_slides_fields" type="subform" multiple="true"
+				   formsource="/plugins/system/dd_article_slides/fields/single_slide.xml"
+				   label="Subform Field" description="Subform Field Description" />
+		</fieldset>
+	</fields>
+</form>
